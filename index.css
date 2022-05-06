@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: 'Bitter',
+    serif;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.nav-links ul li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+
+.flexible-display {
+  display: flex;
+  margin-left: 70px;
+
+}
+
+.st_tag {
+  width: 50%;
+
+}
+
+.st_tag img {
+  width: 80%;
+  margin-left: 80px;
+
+}
+
+.flexible-display span {
+  color: orange;
+  font-size: 40px;
+  margin-left: 60px;
+
+}
+
+.flexible-display h1 {
+  font-size: 40px;
+  font-weight: 00;
+  margin-bottom: -10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+
+.flexible-display p {
+  font-weight: 800;
+}
+
+.flexible-display h2 {
+  color: red;
+  font-size: 40px;
+  margin-bottom: 0%;
+}
+
+
+.ancor_1 {
+  text-decoration: none;
+  background-image: linear-gradient(red, rgb(74, 50, 46));
+  padding: 10px 30px;
+  color: #ddd;
+  margin-left: 100px;
+}
+
+
+
+
+.ancor_1:hover {
+  background-image: linear-gradient(aqua, blue);
+  transition: .5s;
+}
+
+.about {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.about_us {
+
+  text-align: justify;
+  font-weight: 800;
+  box-shadow: 5px 5px 30px gray;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.about_us img {
+  height: 180px;
+  width: 200px;
+  margin-left: 65px;
+}
+
+.about_us span {
+  color: orange;
+}
+
+.VOGUITER {
+  display: block;
+  height: 480px;
+  width: 400px;
+  text-align: justify;
+  font-weight: 200;
+  box-shadow: 5px 5px 30px gray;
+  margin-top: 50px;
+  padding: 0 20px;
+  margin-left: 420px;
+}
+
+.VOGUITER span {
+  color: orange;
+}
+
+.VOGUITER img {
+  height: 180px;
+  width: 200px;
+  margin-left: 105px;
+}
