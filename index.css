@@ -119,17 +119,22 @@ nav {
 
   text-align: justify;
   font-weight: 800;
-  box-shadow: 5px 5px 30px gray;
+  box-shadow: 5px 5px 10px rgb(89, 81, 81);
   margin-top: 50px;
   padding: 0 20px;
+  border-radius: 10px;
 }
 
 .about_us img {
   height: 180px;
   width: 200px;
   margin-left: 65px;
+  border-radius: 10px;
 }
-
+#image-in img{
+  width: 150px;
+  border-radius: 10px;
+}
 .about_us span {
   color: orange;
 }
