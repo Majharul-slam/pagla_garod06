@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Bitter',
     serif;
-  
+
 }
 
 .header {
@@ -239,30 +239,45 @@ input[name="r"] {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 5px;
 
 }
 
 .add_m {
-  background: black;
+  background: rgb(226, 209, 209);
   height: 200px;
   width: 300px;
-  border: 2px solid aqua;
+  border: 2px solid rgb(186, 144, 175);
   border-radius: 10px;
   margin: 50px;
 }
 
 .add_m h1 {
   text-align: center;
-  color: rgb(145, 203, 145);
- 
+  color: rgb(12, 13, 12);
+
 }
+
 .add_m h2 {
   text-align: center;
-  color: rgb(145, 203, 145);
+  color: rgb(9, 10, 9);
 
 }
+
 .add_m h3 {
   text-align: center;
-  color: rgb(145, 203, 145);
+  color: rgb(13, 14, 13);
 
+}
+
+.music_ig a {
+  text-decoration: none;
+}
+
+.music_ig a:hover {
+  background-color: rgba(186, 0, 0, 0.2);
+}
+
+#kmph h1 {
+  font-weight: 900;
 }
