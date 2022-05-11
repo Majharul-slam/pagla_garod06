@@ -281,3 +281,9 @@ input[name="r"] {
 #kmph h1 {
   font-weight: 900;
 }
+footer{
+  text-align: center;
+  text-shadow: 2px 2px aqua;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
